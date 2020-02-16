@@ -55,6 +55,8 @@ See more on [frontend/README.md](./frontend) about Frontend informations. The Fr
 
 <img align="center" src="./static/frontend.gif"></img>
 
+Run tha application at: https://devsarround.herokuapp.com/
+
 ## Mobile
 The mobile app (React Native) developed with Sockets (+ the [chalenge](DESAFIOS.md) done) looks like that:
 
