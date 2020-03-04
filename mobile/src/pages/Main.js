@@ -58,7 +58,7 @@ function Main({ navigation }) {
             return;
         setSearching(true);
         const { latitude, longitude } = currentRegion;
-        const response = await api.get('/search', { params: { latitude, longitude, techs } });
+        const response = await api.get('api/search', { params: { latitude, longitude, techs } });
         setDevs(response.data.devs);
         setSearching(false);
         setupWebsocket();
